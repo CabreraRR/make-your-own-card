@@ -7,26 +7,52 @@
     tools:context="com.example.hellaboredguy.makeyourowncard.MainActivity">
 
     <ImageView
-        android:src="@drawable/ethan-robertson-150601-unsplash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:src="@drawable/beach"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dear Michelle,"
+        android:text="Dearest Michelle,"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:padding="30dp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="with love forever,"
+        android:text="You are Loved"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:paddingBottom="30dp"
+        android:layout_centerInParent="true"
+        />
 
-        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="with admiration, forever,"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_above="@id/love"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        />
+
+    <TextView
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="cursive"
+        android:paddingBottom="30dp"
+        android:paddingRight="30dp"
         android:text="Your Love Love"
-        />
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
 </RelativeLayout>
